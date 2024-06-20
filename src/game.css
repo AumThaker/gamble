@@ -1,0 +1,322 @@
+#title{
+    font-family: 'AppleScript';
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,10%);
+}
+.gamble-settings{
+    display: block;
+    width: 310px;
+    height: 320px;
+    background-color: rgb(57, 57, 57);
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+#user-name{
+    color: white;
+    font-family: 'Metropolis';
+    font-size: auto;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    max-width: 200px;
+}
+#credits{
+    color: rgb(255, 204, 0);
+    font-family: 'Metropolis';
+    font-size: 12px;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+.game-info{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    gap: 20px;
+}
+.game{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.game label{
+    color: white;
+    font-family: 'Metropolis';
+}
+.game input{
+    display: block;
+    width: 240px;
+    height: 30px;
+    outline: none;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(114, 114, 114);
+    color: white;
+    font-family: 'Metropolis';
+}
+#bet{
+    display: block;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    background-color: rgb(183, 59, 59);
+    color: white;
+    font-family: 'Metropolis';
+}
+.diamond-game{
+    display: block;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    left: 65%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    position: absolute;
+    top: 49%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.grid-element{
+    display: block;
+    width: 90px;
+    height: 90px;
+    background-color: rgb(63, 63, 63);
+    border-radius: 15px;
+}
+#cash_out{
+    display: block;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border-style: none;
+    background-color: rgb(183, 59, 59);
+    color: white;
+    font-family: 'Metropolis';
+    position: absolute;
+    top: 95%;
+    left: 52.3%;
+    transform: translate(-50%,-50%);
+}
+.bi-arrow-left{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.bi-suit-diamond-fill{
+    color: rgb(183, 59, 59);
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+@media screen and (max-width: 1600px) {
+    .gamble-settings{
+        top: 50%;
+        left: 35%;
+    }
+    .diamond-game{
+        top: 50%;
+        left: 65%;
+    }
+}
+@media screen and (max-width: 1400px) {
+    .gamble-settings{
+        top: 50%;
+        left: 35%;
+    }
+    .diamond-game{
+        top: 55%;
+        left: 69%;
+    }
+    #cash_out{
+        left: 54%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .gamble-settings{
+        top: 55%;
+        left: 30%;
+    }
+    .diamond-game{
+        top: 57%;
+        left: 65%;
+    }
+    #cash_out{
+        top: 97%;
+        left: 50%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #title{
+        left: 50%;
+    }
+    .gamble-settings{
+        top: 50%;
+        left: 50%;
+    }
+    .diamond-game{
+        top: 123%;
+        left: 50%;
+    }
+    #cash_out{
+        top: 168%;
+        left: 31%;
+    }
+}
+@media screen and (max-width: 992px) {
+    #title{
+        left: 50%;
+    }
+    .gamble-settings{
+        top: 50%;
+        left: 50%;
+    }
+    .diamond-game{
+        width: 500px;
+        height: 500px;
+        top: 123%;
+        left: 50%;
+    }
+    #cash_out{
+        top: 168%;
+        left: 25.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    #title{
+        left: 50%;
+    }
+    .gamble-settings{
+        top: 50%;
+        left: 50%;
+    }
+    .diamond-game{
+        width: 500px;
+        height: 500px;
+        top: 123%;
+        left: 50%;
+    }
+    #cash_out{
+        top: 168%;
+        left: 22%;
+    }
+}
+@media screen and (max-width: 600px) {
+    #title{
+        left: 50%;
+    }
+    .gamble-settings{
+        top: 50%;
+        left: 50%;
+    }
+    .diamond-game{
+        width: 400px;
+        height: 400px;
+        top: 123%;
+        left: 50%;
+    }
+    .grid-element{
+        width: 70px;
+        height: 70px;
+    }
+    #cash_out{
+        top: 160%;
+        left: 25%;
+    }
+}
+@media screen and (max-width: 512px) {
+    #title{
+        left: 50%;
+    }
+    .gamble-settings{
+        top: 50%;
+        left: 50%;
+    }
+    .diamond-game{
+        width: 400px;
+        height: 400px;
+        top: 115%;
+        left: 50%;
+    }
+    .grid-element{
+        width: 70px;
+        height: 70px;
+    }
+    #cash_out{
+        top: 153%;
+        left: 21%;
+    }
+}
+@media screen and (max-width: 480px) {
+    #title{
+        left: 50%;
+    }
+    .gamble-settings{
+        top: 50%;
+        left: 50%;
+    }
+    .diamond-game{
+        width: 350px;
+        height: 350px;
+        top: 110%;
+        left: 50%;
+    }
+    .grid-element{
+        width: 60px;
+        height: 60px;
+    }
+    #cash_out{
+        top: 143%;
+        left: 24%;
+    }
+}
+@media screen and (max-width: 320px) {
+    #title{
+        font-size: 40px;
+        top: 10px;
+        left: 55%;
+    }
+    .game-info input{
+        width: 190px;
+    }
+    .gamble-settings{
+        width: 250px;
+        top: 46%;
+        left: 52%;
+    }
+    .diamond-game{
+        width: 300px;
+        height: 300px;
+        top: 105%;
+        left: 52%;
+    }
+    .grid-element{
+        border-radius: 10px;
+        width: 50px;
+        height: 50px;
+    }
+    #cash_out{
+        top: 135%;
+        left: 20%;
+    }
+    .bi-arrow-left{
+        left: 8%;
+    }
+}
